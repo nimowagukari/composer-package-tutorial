@@ -1,0 +1,23 @@
+{
+    "name": "nimowagukari/composer-package-tutorial",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Nimowagukari\\ComposerPackageTutorial\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nimowagukari",
+            "homepage": "https://github.com/nimowagukari/composer-package-tutorial"
+        }
+    ],
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nimowagukari/composer-package-tutorial"
+        }
+    ]
+}
